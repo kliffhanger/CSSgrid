@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #333333;
+	color: #ffffff;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	height: 100hv;
+}
+
+.container > div {
+	width: 100%;
+	height: 14rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url('bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 2rem;
+}
